@@ -8,3 +8,4 @@ o3de-extras
 o3de-rgl-gem
 
 project.json.bak*
+*.deb

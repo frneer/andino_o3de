@@ -16,17 +16,20 @@
     "icon_path": "preview.png",
     "engine": "o3de-sdk",
     "external_subdirectories": [
+        "/opt/o3de-extras/Gems/WarehouseAssets",
+        "/opt/o3de-extras/Gems/WarehouseSample",
+        "/opt/o3de-extras/Gems/ROS2",
         "Gem"
     ],
     "restricted": "andino_o3de",
     "gem_names": [
-        "ProteusRobot",
-        "RGL",
+        "AtomLyIntegration",
+        "PhysX5Debug",
         "ROS2",
         "RosRobotSample",
         "WarehouseAssets",
         "WarehouseSample"
     ],
-    "engine_version": "2.2.1",
+    "engine_version": "2.3.1",
     "version": "0.1.0"
 }

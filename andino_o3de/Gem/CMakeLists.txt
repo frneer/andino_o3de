@@ -59,7 +59,7 @@ ly_add_target(
             Gem::ImGui.Static
 )
 
-# Request ROS2 packages to be included 
+# Request ROS2 packages to be included
 target_depends_on_ros2_packages(${gem_name}.Private.Object geometry_msgs)
 
 ly_add_target(
@@ -99,7 +99,7 @@ if(PAL_TRAIT_BUILD_HOST_TOOLS)
                 Gem::ImGui.Static
                 Gem::ROS2.Static
                 AZ::AzToolsFramework
-                Gem::AtomLyIntegration_CommonFeatures.Editor.Static
+                # Gem::AtomLyIntegration_CommonFeatures.Editor.Static
                 Gem::LmbrCentral.API
             PRIVATE
                 ${gem_name}.Private.Object

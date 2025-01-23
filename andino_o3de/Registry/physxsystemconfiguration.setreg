@@ -1,9 +1,8 @@
 {
     "Amazon": {
         "Gems": {
-            "PhysX": {
+            "PhysX5": {
                 "PhysXSystemConfiguration": {
-                    "FixedTimeStep": 0.004999999888241291,
                     "CollisionConfig": {
                         "Layers": {
                             "LayerNames": [
@@ -81,7 +80,7 @@
                                 },
                                 {
                                     "Id": {
-                                        "GroupId": "{E388F87A-154C-4106-AA78-3652C9134007}"
+                                        "GroupId": "{C49617D5-FD7A-4347-AB8C-3EF7C05965FD}"
                                     },
                                     "Name": "None",
                                     "Group": {

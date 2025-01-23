@@ -181,11 +181,11 @@
                     "Id": 16167364449359312200,
                     "m_template": {
                         "$type": "ROS2FrameComponent",
+                        "Frame Name": "right_wheel",
+                        "Joint Name": "right_wheel_joint",
                         "Namespace Configuration": {
                             "Namespace Strategy": 1
-                        },
-                        "Frame Name": "right_wheel",
-                        "Joint Name": "right_wheel_joint"
+                        }
                     }
                 },
                 "TransformComponent": {
@@ -718,11 +718,11 @@
                     "Id": 12887895660680905211,
                     "m_template": {
                         "$type": "ROS2FrameComponent",
+                        "Frame Name": "caster_rotation_link",
+                        "Joint Name": "caster_rotation_joint",
                         "Namespace Configuration": {
                             "Namespace Strategy": 1
-                        },
-                        "Frame Name": "caster_rotation_link",
-                        "Joint Name": "caster_rotation_joint"
+                        }
                     }
                 },
                 "TransformComponent": {
@@ -1228,11 +1228,11 @@
                     "Id": 10526927885898138572,
                     "m_template": {
                         "$type": "ROS2FrameComponent",
+                        "Frame Name": "base_footprint",
+                        "Joint Name": "base_footprint_joint",
                         "Namespace Configuration": {
                             "Namespace Strategy": 1
-                        },
-                        "Frame Name": "base_footprint",
-                        "Joint Name": "base_footprint_joint"
+                        }
                     }
                 },
                 "TransformComponent": {
@@ -1328,11 +1328,11 @@
                     "Id": 1719863057660987528,
                     "m_template": {
                         "$type": "ROS2FrameComponent",
+                        "Frame Name": "camera_link",
+                        "Joint Name": "camera_joint",
                         "Namespace Configuration": {
                             "Namespace Strategy": 1
-                        },
-                        "Frame Name": "camera_link",
-                        "Joint Name": "camera_joint"
+                        }
                     }
                 },
                 "TransformComponent": {
@@ -1574,11 +1574,12 @@
                     "Id": 9690060897790001406,
                     "m_template": {
                         "$type": "ROS2FrameComponent",
+                        "Frame Name": "caster_base_link",
+                        "Joint Name": "caster_base_joint",
+                        "Publish Transform": true,
                         "Namespace Configuration": {
                             "Namespace Strategy": 1
-                        },
-                        "Frame Name": "caster_base_link",
-                        "Joint Name": "caster_base_joint"
+                        }
                     }
                 },
                 "TransformComponent": {
@@ -1703,11 +1704,12 @@
                     "Id": 17463238109943851885,
                     "m_template": {
                         "$type": "ROS2FrameComponent",
+                        "Frame Name": "right_motor",
+                        "Joint Name": "right_motor_joint",
+                        "Publish Transform": true,
                         "Namespace Configuration": {
                             "Namespace Strategy": 1
-                        },
-                        "Frame Name": "right_motor",
-                        "Joint Name": "right_motor_joint"
+                        }
                     }
                 },
                 "TransformComponent": {
@@ -1898,7 +1900,20 @@
                 },
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
-                    "Id": 8645454094661381809
+                    "Id": 8645454094661381809,
+                    "DisabledComponents": {
+                        "ROS2FrameComponent": {
+                            "$type": "GenericComponentWrapper",
+                            "Id": 12946495529948914621,
+                            "m_template": {
+                                "$type": "ROS2FrameComponent",
+                                "Frame Name": "base_link",
+                                "Namespace Configuration": {
+                                    "Namespace Strategy": 1
+                                }
+                            }
+                        }
+                    }
                 },
                 "EditorEntityIconComponent": {
                     "$type": "EditorEntityIconComponent",
@@ -1970,16 +1985,9 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 3527984883118693809
                 },
-                "ROS2FrameComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 12946495529948914621,
-                    "m_template": {
-                        "$type": "ROS2FrameComponent",
-                        "Namespace Configuration": {
-                            "Namespace Strategy": 1
-                        },
-                        "Frame Name": "base_link"
-                    }
+                "ROS2FrameEditorComponent": {
+                    "$type": "ROS2FrameEditorComponent",
+                    "Id": 5538654383675296220
                 },
                 "ROS2RobotControlComponent": {
                     "$type": "GenericComponentWrapper",
@@ -2134,11 +2142,12 @@
                     "Id": 9696172627983460608,
                     "m_template": {
                         "$type": "ROS2FrameComponent",
+                        "Frame Name": "second_base_link",
+                        "Joint Name": "second_base_joint",
+                        "Publish Transform": true,
                         "Namespace Configuration": {
                             "Namespace Strategy": 1
-                        },
-                        "Frame Name": "second_base_link",
-                        "Joint Name": "second_base_joint"
+                        }
                     }
                 },
                 "TransformComponent": {
@@ -2279,11 +2288,12 @@
                     "Id": 10580353426615722029,
                     "m_template": {
                         "$type": "ROS2FrameComponent",
+                        "Frame Name": "left_wheel",
+                        "Joint Name": "left_wheel_joint",
+                        "Publish Transform": true,
                         "Namespace Configuration": {
                             "Namespace Strategy": 1
-                        },
-                        "Frame Name": "left_wheel",
-                        "Joint Name": "left_wheel_joint"
+                        }
                     }
                 },
                 "TransformComponent": {
@@ -2412,7 +2422,8 @@
                     "m_template": {
                         "$type": "ROS2FrameComponent",
                         "Frame Name": "rplidar_laser_link",
-                        "Joint Name": "rplidar_laser_joint"
+                        "Joint Name": "rplidar_laser_joint",
+                        "Publish Transform": true
                     }
                 },
                 "ROS2Lidar2DSensorComponent": {
@@ -3069,11 +3080,11 @@
                     "Id": 7884699787374625928,
                     "m_template": {
                         "$type": "ROS2FrameComponent",
+                        "Frame Name": "left_motor",
+                        "Joint Name": "left_motor_joint",
                         "Namespace Configuration": {
                             "Namespace Strategy": 1
-                        },
-                        "Frame Name": "left_motor",
-                        "Joint Name": "left_motor_joint"
+                        }
                     }
                 },
                 "TransformComponent": {

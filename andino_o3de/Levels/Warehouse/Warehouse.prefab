@@ -41,8 +41,8 @@
                 "Child Entity Order": [
                     "Instance_[650636534085]/ContainerEntity",
                     "Entity_[1176639161715]",
-                    "Instance_[25223324836542]/ContainerEntity",
-                    "Entity_[44374584009406]"
+                    "Entity_[44374584009406]",
+                    "Instance_[424926191005]/ContainerEntity"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -340,8 +340,8 @@
         }
     },
     "Instances": {
-        "Instance_[25223324836542]": {
-            "Source": "Prefabs/andino.urdf.prefab",
+        "Instance_[424926191005]": {
+            "Source": "Prefabs/andino.new.prefab",
             "Patches": [
                 {
                     "op": "replace",
@@ -351,15 +351,7 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
-                    "value": 0.07550878822803497
-                },
-                {
-                    "op": "remove",
-                    "path": "/Entities/Entity_[25236209738430]"
-                },
-                {
-                    "op": "remove",
-                    "path": "/Entities/Entity_[25334993986238]"
+                    "value": 0.05000000074505806
                 }
             ]
         },

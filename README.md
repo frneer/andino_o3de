@@ -14,7 +14,7 @@ serves as an entry point for people looking for starting with O3DE Simulator.
 - OS:
   - Ubuntu 22.04 Jammy Jellyfish
 - O3DE:
-  - Tested on 23.10.2
+  - Tested on 24.09.1
 - ROS 2: Humble Hawksbill
 
 ## :inbox_tray: Workspace setup

@@ -1,0 +1,30 @@
+services:
+  andino_o3de:
+    build:
+      dockerfile: Dockerfile
+      context: .
+      target: dev
+      args:
+        O3DE_MAJOR_VERSION: "24"
+        O3DE_MINOR_VERSION: "09"
+        O3DE_PATCH_VERSION: "1"
+        USERID: $USERID
+        USERNAME: $USERNAME
+        GROUPID: $GROUPID
+    image: andino_o3de
+
+    container_name: andino_o3de
+
+    runtime: nvidia
+    stdin_open: true
+    tty: true
+
+    environment:
+      DISPLAY: $DISPLAY
+
+    volumes:
+      - ../andino_o3de:/home/${USERNAME}/workspace
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - $HOME/.Xauthority:/root/.Xauthority
+
+    network_mode: host
