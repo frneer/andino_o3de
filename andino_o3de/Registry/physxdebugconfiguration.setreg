@@ -3,7 +3,11 @@
         "Gems": {
             "PhysX5": {
                 "Debug": {
-                    "PhysXDebugConfiguration": {}
+                    "PhysXDebugConfiguration": {
+                        "DebugDisplayData": {
+                            "COMDebugSize": 5.0
+                        }
+                    }
                 }
             }
         }

@@ -2,6 +2,8 @@
 
 set +e
 
+# TODO(Fran): cd dirname...
+
 HELP="Usage: $me [-s|--service <service>]"
 SERVICE="andino_o3de"
 

@@ -343,7 +343,7 @@
                             0.7071067690849304,
                             0.0,
                             0.0,
-                            0.7071067690849304
+                            0.7071067094802856
                         ],
                         "MaterialSlots": {
                             "Slots": [
@@ -357,7 +357,7 @@
                         "ShapeType": 3,
                         "Cylinder": {
                             "Configuration": {
-                                "CookedData": "TlhTAUNWWE0OAAAAAAAAAElDRQFDTEhMCQAAACAAAAAwAAAAEgAAAGAAAABQg2A8Cteju0rrx7uOwnU8CtejuwAAAABOg2A8Cteju1DrxztPxy08Cteju0/HLTxO68c7Cteju1CDYDy6OjSwCteju47CdTxR68e7Cteju06DYDxPxy28Cteju03HLTxQg2C8Cteju07rxzuOwnW8Cteju7o6tLBOg2C8Cteju1Lrx7tNxy28Cteju0/HLbxL68e7Cteju1CDYLwMLAcxCteju47CdbwjJbA7Cteju8xvZbxRxy08Cteju03HLbxQg2C8CtejO07rxzuOwnW8CtejO7o6tLBPxy28CtejO03HLTxL68e7CtejO1CDYLwMLAcxCtejO47CdbxNxy28CtejO0/HLbxO68c7CtejO1CDYDy6OjSwCtejO47CdTxPxy08CtejO0/HLTxU68c7CtejO02DYLxRxy08CtejO03HLbxOg2C8CtejO1Lrx7sgJbC7CtejO8xvZTzMb2U8CtejOxslsLuOwnU8CtejOwAAAABOg2A8CtejO1DrxzsAAAAAAACAvwAAAAAK16O7AAAQEONner8AAAAAvOZUPrpjcLwQAAQd7PlSvwAAAAAFABE/DaVxvBQABA++5lS+AAAAAOJner+5Y3C8GAAEBAMAEb8AAAAA7PlSvwulcbwcAAQDvuZUPgAAAADiZ3o/uWNwvCAABA0DABE/AAAAAO/5Uj8OpXG8JAAEDOYKDj8AAAAAiPpUvxL/cLwoAAQGSp1IPvHleTw7Anu/5/dwvCwABAXs+VK/AAAAAAUAEb8MpXG8MAAEA+Jner8AAAAA0eZUvrljcLw0AAQB6AoOvwAAAACI+lQ/Ev9wvDgABBk+o0i+AAAAALUJez8T/3C8PAAEDrQJez8AAAAAOqNIvhL/cLxAAAQJNfRUP9nleTynBg6/5fdwvEQABAjw+VI/AAAAAAAAET8MpXG8SAAECuJnej8AAAAAz+ZUPrljcLxMAAQJAAAAAAAAgD8AAAAACteju1AAEAAAAQIDBAUGBwgJCgsMDQ4PEBEJCBAIBxITFA0MEwwLFRYXBQQWBAMYGRoPDhkODRQbFQsKGwoJERwSBwYGBRccHR4BAB0ADxofGAMCHwIBHh8eHRoZFBMVGxEQEhwXFhgADQAQAA8ABgAFAAwACwACAAEACgAJAAQAAwAIAAcADgERAQoBAgILAhEDEQMIAwQECQQRBREFDAUGBg8GEQcRBw4HCAgRCREJCgoRCxELDAwRDRENEA0ODhEPEQ8QEBEADQ4ADRAADxAABg8ABQYABQwACwwAAgsAAQIAAQoACQoABAkAAwQAAwgABwgABw4BAhEBChECCxEDBBEDCBEECREFBhEFDBEGDxEHCBEHDhEJChELDBENDhENEBEPEBEAAAAAjsJ1vArXo7uOwnW8jsJ1PArXozuOwnU8/wDnNlfd7i8K6f6ohHDNqgrp/qgFYU8w8O3BqIRwzarw7cGocPruL2BRJjbscsquAPt3tQAAgL8AAIC/CtejO16razynLz07py89Ow==",
+                                "CookedData": "TlhTAUNWWE0OAAAAAAAAAElDRQFDTEhMCQAAACAAAAAwAAAAEgAAAGAAAAAfJbC7B9ejO8tvZTxOxy28CNejO0zHLTxOxy28Cteju0zHLTxQ68e7C9eju02DYDy5OjSwC9eju4zCdTy5OjSwB9ejO4zCdTxPg2C8CNejO07rxzuNwnW8CdejO/ZEi7CNwnW8Cdeju3ww3bDLb2W8CtejuxwlsDsiJbA7B9eju8tvZbwLLAcxB9eju4zCdbwLLAcxC9ejO4zCdbwiJbA7C9ejO8tvZbxQxy08CtejO0zHLbxQxy08CNeju0zHLbxN68c7C9eju0+DYDxOxy08Cteju07HLTxOxy08CNejO07HLTxN68c7B9ejO0+DYDzLb2W8CtejOyAlsLtMxy28CtejO07HLbxMxy28CNeju07HLbzLb2W8CNejuyIlsLtNg2A8CNejO0/rxzuNwnU8CdejOwrXoy9Pg2A8CtejO0jrx7tK68e7C9ejO0+DYLxPg2A8CNeju0rrx7uNwnU8CdejuwrXo69K68e7B9eju0+DYLxNg2A8Cteju03rxztgLn6vAACAPwIDpDMK16O7AAAQD+oKDr8AAAAAh/pUPxH/cLwQAAQONqNIvgAAAAC1CXs/Ef9wvBQABAq1CXu/N6NIsjSjSD4R/3C8GAAEGYj6VL8AAAAA5woOPxL/cLwcAAQa55s6PgAAAACXtnu/CaVxvCAABAB7bQs/AAAAAByzVr+4Y3C8JAAEAwIAET8AAAAA7flSPwqlcbwoAAQVtOZUPgAAAADkZ3o/uGNwvCwABAsZs1a/AAAAAHxtC7+2Y3C8MAAEGJi2e7/XyZEy9Js6vgulcbw0AAQZ8flSPwAAAAD//xC/DKVxvDgABAbjZ3o/SlSmMsPmVL65Y3C8PAAECQMAEb8AAAAA7flSvwqlcbxAAAQRtOZUvgAAAADkZ3q/uGNwvEQABATiZ3o/0uZUstHmVD64Y3C8SAAEFO/5Uj8AkGKz//8QPwqlcbxMAAQVei1isgAAgL+xAoWzCteju1AAEAAUBwYBAAUTEhgZGg4NDBsVAAECAwMEBQAGBwgJCQIBBgoLDA0KDQ4PEBESExATBQQUFRYXFBcIBxwPDhocGhkdHhYVGx4bDAsfHRkYHxgSER8REAQDAgkIFxYeCwoPHB0ACgADAAQAAQACAAgABwAQAA8ADAALAAYABQAOAA0ACQEEAREBAgIRAggDCgMRAwQEEQURBQ4FBgYLBhEHEQcQBwgIEQkNCREJCgoRCxELDAwPDBENEQ0ODhEPEQ8QEBEAAQIAAQQBBBEBAhECCBEAAggAAwQAAwoDChEDBBEFBhEFDhEABQ4ABQYABgsGCxEHCBEHEBEABxAABwgACQoACQ0JDREJChEADxAADA8ACwwADQ4LDBEMDxENDhEPEBEAAAAAjcJ1vAvXo7uMwnW8jcJ1PAvXozuMwnU8NPTmNgjU7i9CTJOoIj/XqkJMk6g3Sk8wrxeTqCI/16qvF5OoCdTuL4DTyTWgQlctUFdktgAAgL8AAIC/CtejO5mrazynLz07py89Ow==",
                                 "Type": 1
                             },
                             "Subdivision": 120,
@@ -405,6 +405,9 @@
                     "$type": "ROS2FrameEditorComponent",
                     "Id": 14789976885289331232,
                     "ROS2FrameConfiguration": {
+                        "Namespace Configuration": {
+                            "Namespace Strategy": 1
+                        },
                         "Frame Name": "caster_wheel_link",
                         "Joint Name": "caster_wheel_joint"
                     }
@@ -2107,6 +2110,11 @@
                     "ArticulationConfiguration": {
                         "entityId": "",
                         "Mass": 0.800000011920929,
+                        "Centre of mass offset": [
+                            -0.009999999776482582,
+                            0.0,
+                            0.019999999552965164
+                        ],
                         "SolverPositionIterations": 40,
                         "SolverVelocityIterations": 10
                     }
@@ -2183,6 +2191,13 @@
                     "Id": 14027712387842316419,
                     "ROS2FrameConfiguration": {
                         "Frame Name": "base_link"
+                    }
+                },
+                "SkidSteeringControlComponent": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 2844576439127385733,
+                    "m_template": {
+                        "$type": "SkidSteeringControlComponent"
                     }
                 },
                 "TransformComponent": {
