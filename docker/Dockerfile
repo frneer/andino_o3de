@@ -8,8 +8,8 @@ ARG O3DE_MINOR_VERSION
 ARG O3DE_PATCH_VERSION
 
 ENV O3DE_DEB=o3de_${O3DE_MAJOR_VERSION}${O3DE_MINOR_VERSION}_${O3DE_PATCH_VERSION}.deb
-ADD https://o3debinaries.org/main/Latest/Linux/$O3DE_DEB /tmp/o3de_deb
-# ADD $O3DE_DEB /tmp/$O3DE_DEB
+# ADD https://o3debinaries.org/main/Latest/Linux/$O3DE_DEB /tmp/$O3DE_DEB
+ADD $O3DE_DEB /tmp/$O3DE_DEB
 
 ################################################################################
 # Get o3de-extras repository
@@ -29,11 +29,10 @@ RUN git clone --single-branch --no-tags -b ${O3DE_EXTRAS_TAG} https://github.com
     git -C /opt/o3de-extras lfs install && \
     git -C /opt/o3de-extras lfs pull && \
     chmod -R a+w /opt/o3de-extras
-
+################################################################################
+# Base image
+################################################################################
 FROM amd64/ros:humble AS dev
-################################################################################
-# Get O3DE debian package
-################################################################################
 
 ARG O3DE_MAJOR_VERSION
 ARG O3DE_MINOR_VERSION
@@ -85,14 +84,14 @@ RUN apt-get install -y /tmp/${O3DE_DEB} && \
 ################################################################################
 
 # Required for rviz2
-RUN apt-get install -y libogre-1.12.1-dev
+# RUN apt-get install -y libogre-1.12-dev
 
 RUN apt-get install --no-install-recommends -y \
     ros-humble-ackermann-msgs \
     ros-humble-control-toolbox \
     ros-humble-gazebo-msgs \
     ros-humble-nav-msgs \
-    ros-humble-rivz2 \
+    # ros-humble-rivz2 \
     ros-humble-teleop-twist-keyboard \
     ros-humble-xacro
 
