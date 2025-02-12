@@ -8,8 +8,7 @@ ARG O3DE_MINOR_VERSION
 ARG O3DE_PATCH_VERSION
 
 ENV O3DE_DEB=o3de_${O3DE_MAJOR_VERSION}${O3DE_MINOR_VERSION}_${O3DE_PATCH_VERSION}.deb
-# ADD https://o3debinaries.org/main/Latest/Linux/$O3DE_DEB /tmp/$O3DE_DEB
-ADD $O3DE_DEB /tmp/$O3DE_DEB
+ADD https://o3debinaries.org/main/Latest/Linux/$O3DE_DEB /tmp/$O3DE_DEB
 
 ################################################################################
 # Get o3de-extras repository
@@ -73,7 +72,7 @@ RUN apt-get update && apt-get install --no-install-recommends -y \
 # Install O3DE Engine
 ################################################################################
 ENV O3DE_DEB=o3de_${O3DE_MAJOR_VERSION}${O3DE_MINOR_VERSION}_${O3DE_PATCH_VERSION}.deb
-COPY --from=o3de_deb /tmp/${O3DE_DEB} /tmp/${O3DE_DEB}
+COPY --link --from=o3de_deb /tmp/${O3DE_DEB} /tmp/${O3DE_DEB}
 
 RUN apt-get install -y /tmp/${O3DE_DEB} && \
     chmod -R a+w /opt/O3DE/${O3DE_VERSION} && \

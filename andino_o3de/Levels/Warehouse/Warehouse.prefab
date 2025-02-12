@@ -345,13 +345,745 @@
             "Patches": [
                 {
                     "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[1146574390643]"
+                    "path": "/Entities/Entity_[1622501100940]/Components/EditorDisabledCompositionComponent/DisabledComponents",
+                    "value": {
+                        "AZ::Render::EditorMeshComponent": {
+                            "$type": "AZ::Render::EditorMeshComponent",
+                            "Id": 1783390394025718474,
+                            "Controller": {
+                                "Configuration": {
+                                    "ModelAsset": {
+                                        "assetId": {
+                                            "guid": "{C62A985E-BBDE-56C4-A935-B825EEA51C7C}",
+                                            "subId": 279187643
+                                        },
+                                        "loadBehavior": "QueueLoad",
+                                        "assetHint": "assets/urdfimporter/3336811075_andino/caster_wheel.stl.azmodel"
+                                    },
+                                    "SortKey": 0,
+                                    "ExcludeFromReflectionCubeMaps": false,
+                                    "UseForwardPassIBLSpecular": false,
+                                    "IsRayTracingEnabled": true,
+                                    "IsAlwaysDynamic": false,
+                                    "Visibility": true,
+                                    "SupportRayIntersection": false,
+                                    "LodType": 0,
+                                    "LodOverride": 0,
+                                    "MinimumScreenCoverage": 0.0009259259095415473,
+                                    "QualityDecayRate": 0.5,
+                                    "LightingChannelConfig": {
+                                        "lightingChannelFlags": [
+                                            true,
+                                            false,
+                                            false,
+                                            false,
+                                            false
+                                        ]
+                                    }
+                                }
+                            },
+                            "meshStats": {}
+                        }
+                    }
                 },
                 {
                     "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
-                    "value": 0.05000000074505806
+                    "path": "/Entities/Entity_[1622501100940]/Components/EditorPendingCompositionComponent/PendingComponents",
+                    "value": {
+                        "EditorMaterialComponent": {
+                            "$type": "EditorMaterialComponent",
+                            "Id": 9409673123842562805,
+                            "Controller": {
+                                "Configuration": {
+                                    "materials": [
+                                        {
+                                            "Key": {
+                                                "lodIndex": 0,
+                                                "materialSlotStableId": 2084814471
+                                            },
+                                            "Value": {
+                                                "MaterialAsset": {
+                                                    "assetId": {
+                                                        "guid": "{C62A985E-BBDE-56C4-A935-B825EEA51C7C}",
+                                                        "subId": 2084814471
+                                                    },
+                                                    "loadBehavior": "QueueLoad",
+                                                    "assetHint": "assets/urdfimporter/3336811075_andino/caster_wheel_defaultmaterial_3809502407269006983.stl.azmaterial"
+                                                },
+                                                "PropertyOverrides": {
+                                                    "baseColor.color": {
+                                                        "$type": "Color",
+                                                        "Value": [
+                                                            0.0,
+                                                            0.0,
+                                                            0.0,
+                                                            1.0
+                                                        ]
+                                                    }
+                                                },
+                                                "ModelUvOverrides": []
+                                            }
+                                        },
+                                        {
+                                            "Key": {
+                                                "lodIndex": 18446744073709551615,
+                                                "materialSlotStableId": 2084814471
+                                            },
+                                            "Value": {
+                                                "MaterialAsset": {
+                                                    "assetId": {
+                                                        "guid": "{C62A985E-BBDE-56C4-A935-B825EEA51C7C}",
+                                                        "subId": 2084814471
+                                                    },
+                                                    "loadBehavior": "QueueLoad",
+                                                    "assetHint": "assets/urdfimporter/3336811075_andino/caster_wheel_defaultmaterial_3809502407269006983.stl.azmaterial"
+                                                },
+                                                "PropertyOverrides": {
+                                                    "baseColor.color": {
+                                                        "$type": "Color",
+                                                        "Value": [
+                                                            0.0,
+                                                            0.0,
+                                                            0.0,
+                                                            1.0
+                                                        ]
+                                                    }
+                                                },
+                                                "ModelUvOverrides": []
+                                            }
+                                        },
+                                        {
+                                            "Key": {
+                                                "lodIndex": 18446744073709551615,
+                                                "materialSlotStableId": 4294967295
+                                            },
+                                            "Value": {
+                                                "MaterialAsset": {
+                                                    "assetId": {
+                                                        "guid": "{00000000-0000-0000-0000-000000000000}",
+                                                        "subId": 0
+                                                    },
+                                                    "loadBehavior": "QueueLoad",
+                                                    "assetHint": ""
+                                                },
+                                                "PropertyOverrides": {
+                                                    "baseColor.color": {
+                                                        "$type": "Color",
+                                                        "Value": [
+                                                            0.0,
+                                                            0.0,
+                                                            0.0,
+                                                            1.0
+                                                        ]
+                                                    }
+                                                },
+                                                "ModelUvOverrides": []
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            "materialSlotsByLodEnabled": false
+                        }
+                    }
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[1622501100940]/Components/AZ::Render::EditorMeshComponent"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[1622501100940]/Components/EditorMaterialComponent"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1669745741196]/Components/EditorDisabledCompositionComponent/DisabledComponents",
+                    "value": {
+                        "AZ::Render::EditorMeshComponent": {
+                            "$type": "AZ::Render::EditorMeshComponent",
+                            "Id": 9558423143746057816,
+                            "Controller": {
+                                "Configuration": {
+                                    "ModelAsset": {
+                                        "assetId": {
+                                            "guid": "{3CA5DCD1-CB9E-529D-8040-79346CA2AD35}",
+                                            "subId": 280291850
+                                        },
+                                        "loadBehavior": "QueueLoad",
+                                        "assetHint": "assets/urdfimporter/3336811075_andino/caster_wheel_support.stl.azmodel"
+                                    },
+                                    "SortKey": 0,
+                                    "ExcludeFromReflectionCubeMaps": false,
+                                    "UseForwardPassIBLSpecular": false,
+                                    "IsRayTracingEnabled": true,
+                                    "IsAlwaysDynamic": false,
+                                    "Visibility": true,
+                                    "SupportRayIntersection": false,
+                                    "LodType": 0,
+                                    "LodOverride": 0,
+                                    "MinimumScreenCoverage": 0.0009259259095415473,
+                                    "QualityDecayRate": 0.5,
+                                    "LightingChannelConfig": {
+                                        "lightingChannelFlags": [
+                                            true,
+                                            false,
+                                            false,
+                                            false,
+                                            false
+                                        ]
+                                    }
+                                }
+                            },
+                            "meshStats": {}
+                        }
+                    }
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1669745741196]/Components/EditorPendingCompositionComponent/PendingComponents",
+                    "value": {
+                        "EditorMaterialComponent": {
+                            "$type": "EditorMaterialComponent",
+                            "Id": 18288333396344890432,
+                            "Controller": {
+                                "Configuration": {
+                                    "materials": [
+                                        {
+                                            "Key": {
+                                                "lodIndex": 0,
+                                                "materialSlotStableId": 2084814471
+                                            },
+                                            "Value": {
+                                                "MaterialAsset": {
+                                                    "assetId": {
+                                                        "guid": "{3CA5DCD1-CB9E-529D-8040-79346CA2AD35}",
+                                                        "subId": 2084814471
+                                                    },
+                                                    "loadBehavior": "QueueLoad",
+                                                    "assetHint": "assets/urdfimporter/3336811075_andino/caster_wheel_support_defaultmaterial_3809502407269006983.stl.azmaterial"
+                                                },
+                                                "PropertyOverrides": {
+                                                    "baseColor.color": {
+                                                        "$type": "Color",
+                                                        "Value": [
+                                                            0.9717994928359985,
+                                                            1.0,
+                                                            1.0,
+                                                            1.0
+                                                        ]
+                                                    }
+                                                },
+                                                "ModelUvOverrides": []
+                                            }
+                                        },
+                                        {
+                                            "Key": {
+                                                "lodIndex": 18446744073709551615,
+                                                "materialSlotStableId": 2084814471
+                                            },
+                                            "Value": {
+                                                "MaterialAsset": {
+                                                    "assetId": {
+                                                        "guid": "{3CA5DCD1-CB9E-529D-8040-79346CA2AD35}",
+                                                        "subId": 2084814471
+                                                    },
+                                                    "loadBehavior": "QueueLoad",
+                                                    "assetHint": "assets/urdfimporter/3336811075_andino/caster_wheel_support_defaultmaterial_3809502407269006983.stl.azmaterial"
+                                                },
+                                                "PropertyOverrides": {
+                                                    "baseColor.color": {
+                                                        "$type": "Color",
+                                                        "Value": [
+                                                            0.9717994928359985,
+                                                            1.0,
+                                                            1.0,
+                                                            1.0
+                                                        ]
+                                                    }
+                                                },
+                                                "ModelUvOverrides": []
+                                            }
+                                        },
+                                        {
+                                            "Key": {
+                                                "lodIndex": 18446744073709551615,
+                                                "materialSlotStableId": 4294967295
+                                            },
+                                            "Value": {
+                                                "MaterialAsset": {
+                                                    "assetId": {
+                                                        "guid": "{00000000-0000-0000-0000-000000000000}",
+                                                        "subId": 0
+                                                    },
+                                                    "loadBehavior": "QueueLoad",
+                                                    "assetHint": ""
+                                                },
+                                                "PropertyOverrides": {
+                                                    "baseColor.color": {
+                                                        "$type": "Color",
+                                                        "Value": [
+                                                            0.9717994928359985,
+                                                            1.0,
+                                                            1.0,
+                                                            1.0
+                                                        ]
+                                                    }
+                                                },
+                                                "ModelUvOverrides": []
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            "materialSlotsByLodEnabled": false
+                        }
+                    }
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[1669745741196]/Components/AZ::Render::EditorMeshComponent"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[1669745741196]/Components/EditorMaterialComponent"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1674040708492]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Mass",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1674040708492]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Motor configuration/ForceLimit",
+                    "value": 0.800000011920929
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1674040708492]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Motor configuration/Damping",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1674040708492]/Components/EditorColliderComponent/ColliderConfiguration/Rotation/3",
+                    "value": 0.7071067094802856
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1674040708492]/Components/EditorColliderComponent/ShapeConfiguration/Cylinder/Configuration/CookedData",
+                    "value": "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"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1699810512268]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Mass",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1699810512268]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Motor configuration/ForceLimit",
+                    "value": 0.800000011920929
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1699810512268]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Motor configuration/Stiffness",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1699810512268]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Motor configuration/Damping",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1699810512268]/Components/EditorColliderComponent/ColliderConfiguration/Rotation/3",
+                    "value": 0.7071067094802856
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1699810512268]/Components/EditorColliderComponent/ShapeConfiguration/Cylinder/Configuration/CookedData",
+                    "value": "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"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1699810512268]/Components/ROS2FrameEditorComponent/ROS2FrameConfiguration/Namespace Configuration/Namespace Strategy",
+                    "value": 1
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[1699810512268]/Components/WheelControllerComponent",
+                    "value": {
+                        "$type": "GenericComponentWrapper",
+                        "Id": 17658002872702295293,
+                        "m_template": {
+                            "$type": "WheelControllerComponent",
+                            "Id": 0,
+                            "SteeringEntity": "",
+                            "SteeringScale": 1.0
+                        }
+                    }
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1704105479564]/Components/EditorDisabledCompositionComponent/DisabledComponents",
+                    "value": {
+                        "AZ::Render::EditorMeshComponent": {
+                            "$type": "AZ::Render::EditorMeshComponent",
+                            "Id": 16336332389966745439,
+                            "Controller": {
+                                "Configuration": {
+                                    "ModelAsset": {
+                                        "assetId": {
+                                            "guid": "{14BD8A60-4227-5033-8278-A633C82753FB}",
+                                            "subId": 282111860
+                                        },
+                                        "loadBehavior": "QueueLoad",
+                                        "assetHint": "assets/urdfimporter/3336811075_andino/wheel.stl.azmodel"
+                                    },
+                                    "SortKey": 0,
+                                    "ExcludeFromReflectionCubeMaps": false,
+                                    "UseForwardPassIBLSpecular": false,
+                                    "IsRayTracingEnabled": true,
+                                    "IsAlwaysDynamic": false,
+                                    "Visibility": true,
+                                    "SupportRayIntersection": false,
+                                    "LodType": 0,
+                                    "LodOverride": 0,
+                                    "MinimumScreenCoverage": 0.0009259259095415472,
+                                    "QualityDecayRate": 0.5,
+                                    "LightingChannelConfig": {
+                                        "lightingChannelFlags": [
+                                            true,
+                                            false,
+                                            false,
+                                            false,
+                                            false
+                                        ]
+                                    }
+                                }
+                            },
+                            "meshStats": {}
+                        }
+                    }
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1704105479564]/Components/EditorPendingCompositionComponent/PendingComponents",
+                    "value": {
+                        "EditorMaterialComponent": {
+                            "$type": "EditorMaterialComponent",
+                            "Id": 8414639027306540260,
+                            "Controller": {
+                                "Configuration": {
+                                    "materials": [
+                                        {
+                                            "Key": {
+                                                "lodIndex": 0,
+                                                "materialSlotStableId": 2084814471
+                                            },
+                                            "Value": {
+                                                "MaterialAsset": {
+                                                    "assetId": {
+                                                        "guid": "{14BD8A60-4227-5033-8278-A633C82753FB}",
+                                                        "subId": 2084814471
+                                                    },
+                                                    "loadBehavior": "QueueLoad",
+                                                    "assetHint": "assets/urdfimporter/3336811075_andino/wheel_defaultmaterial_3809502407269006983.stl.azmaterial"
+                                                },
+                                                "PropertyOverrides": {
+                                                    "baseColor.color": {
+                                                        "$type": "Color",
+                                                        "Value": [
+                                                            0.11601615697145462,
+                                                            0.11601615697145462,
+                                                            0.11601615697145462,
+                                                            1.0
+                                                        ]
+                                                    }
+                                                },
+                                                "ModelUvOverrides": []
+                                            }
+                                        },
+                                        {
+                                            "Key": {
+                                                "lodIndex": 18446744073709551615,
+                                                "materialSlotStableId": 2084814471
+                                            },
+                                            "Value": {
+                                                "MaterialAsset": {
+                                                    "assetId": {
+                                                        "guid": "{14BD8A60-4227-5033-8278-A633C82753FB}",
+                                                        "subId": 2084814471
+                                                    },
+                                                    "loadBehavior": "QueueLoad",
+                                                    "assetHint": "assets/urdfimporter/3336811075_andino/wheel_defaultmaterial_3809502407269006983.stl.azmaterial"
+                                                },
+                                                "PropertyOverrides": {
+                                                    "baseColor.color": {
+                                                        "$type": "Color",
+                                                        "Value": [
+                                                            0.11601615697145462,
+                                                            0.11601615697145462,
+                                                            0.11601615697145462,
+                                                            1.0
+                                                        ]
+                                                    }
+                                                },
+                                                "ModelUvOverrides": []
+                                            }
+                                        },
+                                        {
+                                            "Key": {
+                                                "lodIndex": 18446744073709551615,
+                                                "materialSlotStableId": 4294967295
+                                            },
+                                            "Value": {
+                                                "MaterialAsset": {
+                                                    "assetId": {
+                                                        "guid": "{00000000-0000-0000-0000-000000000000}",
+                                                        "subId": 0
+                                                    },
+                                                    "loadBehavior": "QueueLoad",
+                                                    "assetHint": ""
+                                                },
+                                                "PropertyOverrides": {
+                                                    "baseColor.color": {
+                                                        "$type": "Color",
+                                                        "Value": [
+                                                            0.11601615697145462,
+                                                            0.11601615697145462,
+                                                            0.11601615697145462,
+                                                            1.0
+                                                        ]
+                                                    }
+                                                },
+                                                "ModelUvOverrides": []
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            "materialSlotsByLodEnabled": false
+                        }
+                    }
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[1704105479564]/Components/AZ::Render::EditorMeshComponent"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[1704105479564]/Components/EditorMaterialComponent"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[1605321231756]"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[1609616199052]"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[1613911166348]"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[1626796068236]"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[1631091035532]"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[1635386002828]"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[1639680970124]"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[1643975937420]"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[1648270904716]"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[1652565872012]"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[1656860839308]"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[1661155806604]"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[1686925610380]"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[1691220577676]"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[1695515544972]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1678335675788]/Components/EditorDisabledCompositionComponent/DisabledComponents",
+                    "value": {
+                        "AZ::Render::EditorMeshComponent": {
+                            "$type": "AZ::Render::EditorMeshComponent",
+                            "Id": 14377003967482839403,
+                            "Controller": {
+                                "Configuration": {
+                                    "ModelAsset": {
+                                        "assetId": {
+                                            "guid": "{14BD8A60-4227-5033-8278-A633C82753FB}",
+                                            "subId": 282111860
+                                        },
+                                        "loadBehavior": "QueueLoad",
+                                        "assetHint": "assets/urdfimporter/3336811075_andino/wheel.stl.azmodel"
+                                    },
+                                    "SortKey": 0,
+                                    "ExcludeFromReflectionCubeMaps": false,
+                                    "UseForwardPassIBLSpecular": false,
+                                    "IsRayTracingEnabled": true,
+                                    "IsAlwaysDynamic": false,
+                                    "Visibility": true,
+                                    "SupportRayIntersection": false,
+                                    "LodType": 0,
+                                    "LodOverride": 0,
+                                    "MinimumScreenCoverage": 0.0009259259095415473,
+                                    "QualityDecayRate": 0.5,
+                                    "LightingChannelConfig": {
+                                        "lightingChannelFlags": [
+                                            true,
+                                            false,
+                                            false,
+                                            false,
+                                            false
+                                        ]
+                                    }
+                                }
+                            },
+                            "meshStats": {}
+                        }
+                    }
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1678335675788]/Components/EditorPendingCompositionComponent/PendingComponents",
+                    "value": {
+                        "EditorMaterialComponent": {
+                            "$type": "EditorMaterialComponent",
+                            "Id": 11167202172571512469,
+                            "Controller": {
+                                "Configuration": {
+                                    "materials": [
+                                        {
+                                            "Key": {
+                                                "lodIndex": 0,
+                                                "materialSlotStableId": 2084814471
+                                            },
+                                            "Value": {
+                                                "MaterialAsset": {
+                                                    "assetId": {
+                                                        "guid": "{14BD8A60-4227-5033-8278-A633C82753FB}",
+                                                        "subId": 2084814471
+                                                    },
+                                                    "loadBehavior": "QueueLoad",
+                                                    "assetHint": "assets/urdfimporter/3336811075_andino/wheel_defaultmaterial_3809502407269006983.stl.azmaterial"
+                                                },
+                                                "PropertyOverrides": {
+                                                    "baseColor.color": {
+                                                        "$type": "Color",
+                                                        "Value": [
+                                                            0.11601615697145462,
+                                                            0.11601615697145462,
+                                                            0.11601615697145462,
+                                                            1.0
+                                                        ]
+                                                    }
+                                                },
+                                                "ModelUvOverrides": []
+                                            }
+                                        },
+                                        {
+                                            "Key": {
+                                                "lodIndex": 18446744073709551615,
+                                                "materialSlotStableId": 2084814471
+                                            },
+                                            "Value": {
+                                                "MaterialAsset": {
+                                                    "assetId": {
+                                                        "guid": "{14BD8A60-4227-5033-8278-A633C82753FB}",
+                                                        "subId": 2084814471
+                                                    },
+                                                    "loadBehavior": "QueueLoad",
+                                                    "assetHint": "assets/urdfimporter/3336811075_andino/wheel_defaultmaterial_3809502407269006983.stl.azmaterial"
+                                                },
+                                                "PropertyOverrides": {
+                                                    "baseColor.color": {
+                                                        "$type": "Color",
+                                                        "Value": [
+                                                            0.11601615697145462,
+                                                            0.11601615697145462,
+                                                            0.11601615697145462,
+                                                            1.0
+                                                        ]
+                                                    }
+                                                },
+                                                "ModelUvOverrides": []
+                                            }
+                                        },
+                                        {
+                                            "Key": {
+                                                "lodIndex": 18446744073709551615,
+                                                "materialSlotStableId": 4294967295
+                                            },
+                                            "Value": {
+                                                "MaterialAsset": {
+                                                    "assetId": {
+                                                        "guid": "{00000000-0000-0000-0000-000000000000}",
+                                                        "subId": 0
+                                                    },
+                                                    "loadBehavior": "QueueLoad",
+                                                    "assetHint": ""
+                                                },
+                                                "PropertyOverrides": {
+                                                    "baseColor.color": {
+                                                        "$type": "Color",
+                                                        "Value": [
+                                                            0.11601615697145462,
+                                                            0.11601615697145462,
+                                                            0.11601615697145462,
+                                                            1.0
+                                                        ]
+                                                    }
+                                                },
+                                                "ModelUvOverrides": []
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            "materialSlotsByLodEnabled": false
+                        }
+                    }
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[1678335675788]/Components/AZ::Render::EditorMeshComponent"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[1678335675788]/Components/EditorMaterialComponent"
                 },
                 {
                     "op": "add",
@@ -414,354 +1146,71 @@
                 },
                 {
                     "op": "replace",
-                    "path": "/Entities/Entity_[1609616199052]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Mass",
-                    "value": 0.1899999976158142
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
                 },
                 {
                     "op": "replace",
-                    "path": "/Entities/Entity_[1609616199052]/Components/ROS2FrameEditorComponent/ROS2FrameConfiguration/Namespace Configuration/Namespace Strategy",
-                    "value": 1
-                },
-                {
-                    "op": "remove",
-                    "path": "/Entities/Entity_[1609616199052]/Components/EditorColliderComponent"
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1626796068236]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Mass",
-                    "value": 0.009999999776482582
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1626796068236]/Components/ROS2FrameEditorComponent/ROS2FrameConfiguration/Namespace Configuration/Namespace Strategy",
-                    "value": 1
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1661155806604]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Mass",
-                    "value": 0.009999999776482582
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1661155806604]/Components/TransformComponent/Transform Data/Translate/2",
-                    "value": 0.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1674040708492]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Motor configuration/ForceLimit",
-                    "value": 100.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1674040708492]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Motor configuration/Stiffness",
-                    "value": 0.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1674040708492]/Components/ROS2FrameEditorComponent/ROS2FrameConfiguration/Namespace Configuration/Namespace Strategy",
-                    "value": 1
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1674040708492]/Components/WheelControllerComponent",
-                    "value": {
-                        "$type": "GenericComponentWrapper",
-                        "Id": 14454534305494612919,
-                        "m_template": {
-                            "$type": "WheelControllerComponent",
-                            "Id": 0,
-                            "SteeringEntity": "",
-                            "SteeringScale": 1.0
-                        }
-                    }
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1691220577676]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Mass",
-                    "value": 0.003000000026077032
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1691220577676]/Components/ROS2FrameEditorComponent/ROS2FrameConfiguration/Namespace Configuration/Namespace Strategy",
-                    "value": 1
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1699810512268]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Motor configuration/ForceLimit",
-                    "value": 100.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1699810512268]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Motor configuration/Stiffness",
-                    "value": 0.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1699810512268]/Components/ROS2FrameEditorComponent/ROS2FrameConfiguration/Namespace Configuration/Namespace Strategy",
-                    "value": 1
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1699810512268]/Components/WheelControllerComponent",
-                    "value": {
-                        "$type": "GenericComponentWrapper",
-                        "Id": 17658002872702295293,
-                        "m_template": {
-                            "$type": "WheelControllerComponent",
-                            "Id": 0,
-                            "SteeringEntity": "",
-                            "SteeringScale": 1.0
-                        }
-                    }
-                },
-                {
-                    "op": "remove",
-                    "path": "/Entities/Entity_[1605321231756]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1635386002828]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Mass",
-                    "value": 0.0010000000474974513
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1635386002828]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Centre of mass offset/2",
-                    "value": 0.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1635386002828]/Components/ROS2FrameEditorComponent/ROS2FrameConfiguration/Namespace Configuration/Namespace Strategy",
-                    "value": 1
-                },
-                {
-                    "op": "remove",
-                    "path": "/Entities/Entity_[1635386002828]/Components/EditorColliderComponent"
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1618206133644]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Mass",
-                    "value": 0.019999999552965164
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1618206133644]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Articulation Joint Type",
-                    "value": 1
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1618206133644]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Local Rotation/2",
-                    "value": 90.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1618206133644]/Components/EditorColliderComponent/ColliderConfiguration/Rotation/1",
-                    "value": 1.0536708394681682e-8
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1618206133644]/Components/EditorColliderComponent/ColliderConfiguration/Rotation/2",
-                    "value": 1.0536709282860102e-8
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1618206133644]/Components/EditorColliderComponent/ColliderConfiguration/MaterialSlots/Slots/0/MaterialAsset/assetId/guid",
-                    "value": "{54097FD0-79D8-542F-9F95-0A61B75C4E61}"
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1618206133644]/Components/EditorColliderComponent/ColliderConfiguration/MaterialSlots/Slots/0/MaterialAsset/assetId/subId",
-                    "value": 1
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1618206133644]/Components/EditorColliderComponent/ColliderConfiguration/MaterialSlots/Slots/0/MaterialAsset/assetHint",
-                    "value": "physics/slippery_glass.physicsmaterial"
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1618206133644]/Components/EditorColliderComponent/ShapeConfiguration/Sphere/Radius",
-                    "value": 0.01549999974668026
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1618206133644]/Components/EditorColliderComponent/ShapeConfiguration/Cylinder/Configuration/CookedData",
-                    "value": "TlhTAUNWWE0OAAAAAAAAAElDRQFDTEhMCQAAACAAAAAwAAAAEgAAAGAAAABR68e7B9ejO02DYDxOxy28B9ejO0zHLTxOxy28C9eju0zHLTxQ68e7C9eju02DYDz4RAuwC9eju4zCdTx7MF2wB9ejO4zCdTxPg2C8B9ejO03rxzuNwnW8CNejO/dEi7CNwnW8Cteju3ww3bDLb2W8C9ejuxwlsDtJ68e7B9eju0+DYLxMxy28CNeju07HLbxMxy28CtejO07HLbxK68e7C9ejO0+DYLw33fkwC9ejO4zCdbx8aRExB9eju4zCdbxU68c7B9eju0yDYLwhJbA7C9ejO8tvZbxQxy08C9ejO0zHLbxQxy08B9eju0zHLbxN68c7C9eju0+DYDxOxy08Cteju07HLTxOxy08CNejO07HLTxM68c7B9ejO0+DYDzLb2W8CNejOyAlsLvLb2W8CtejuyElsLtNg2A8CtejO0/rxzuNwnU8CtejOwzXoy9Pg2A8C9ejO0jrx7tPg2A8B9eju0nrx7uNwnU8CNejuwnXo69Ng2A8CNeju07rxzsoigazAACAP3A0sjMK16O7AAAQDwUAEb8AAAAA7PlSPwqlcbwQAAQQxuZUvkxUJrLiZ3o/uGNwvBQABBG1CXu/NaNIsjSjSD4R/3C8GAAEG4n6VL8AAAAA5woOPxH/cLwcAAQcAwARvwAAAADt+VK/CqVxvCAABBW05lS+PlQmsuNner+3Y3C8JAAEBDqjSD40o8gxtQl7vxH/cLwoAAQE5woOPwAAAACI+lS/Ev9wvCwABAACABE/AAAAAO75Uj8LpXG8MAAECrTmVD4+VCYy5Gd6P7hjcLw0AAQOGbNWvwAAAAB8bQu/tmNwvDgABBqXtnu/18kRMvSbOr4KpXG8PAAEG/H5Uj8AAAAA//8QvwylcbxAAAQG42d6P0pUJjLD5lS+uWNwvEQABAniZ3o/0eZUstDmVD64Y3C8SAAEGO/5Uj8AkOKy//8QPwqlcbxMAAQLIZtisgAAgL8uQ4WzCdeju1AAEBoYBwYBAAUXFhobHBIRDg0MAAECAwADBAUGBwgJCQIBBgoLDA0KDQ4PEA8OERESExAUFRYXFBcFBBgMCxkYGQgHHRMSHB0cGx4fHhsaHxoWFR8VFAQDAgkIGQsKDxATHR4ADAADAAQAAQACAAoACQAQAA8ADgANAAgABwAGAAUACwEEAREBAgIRAgoDDAMRAwQEEQURBQsFBgYHBhEHEQcICA0IEQkRCRAJCgoRCxELDAwRDRENDg4PDhEPEQ8QEBEAAQIAAQQBBBEBAhECChEAAgoAAwQAAwwDDBEDBBEFBhEFCxEABQsABQYABgcGBxEHCBEABwgACA0IDREJChEJEBEACRAACQoACwwLDBEADxAADg8ADQ4NDhEODxEPEBEAAAAAjcJ1vAvXo7uMwnW8jcJ1PAvXozuMwnU8M/TmNoK77i+Th/MnglJqqpOH8yc2Sk8wZjTzp4JSaqpmNPOnjezuL0D1bLUZ71quTFEeNgAAgL8AAIC/CdejO4i2azyvLz07ry89Ow=="
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1665450773900]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Mass",
-                    "value": 0.0010000000474974513
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1665450773900]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Articulation Joint Type",
-                    "value": 1
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1665450773900]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Local Rotation/1",
-                    "value": -90.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1665450773900]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Display Joint Setup",
-                    "value": 2
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1665450773900]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Angular Limit Negative",
-                    "value": -180.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1665450773900]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Angular Limit Positive",
-                    "value": 180.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1665450773900]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Motor configuration/Damping",
-                    "value": 0.10000000149011612
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1665450773900]/Components/ROS2FrameEditorComponent/ROS2FrameConfiguration/Namespace Configuration/Namespace Strategy",
-                    "value": 1
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1665450773900]/Components/TransformComponent/Transform Data/Translate/2",
-                    "value": 0.004499997943639755
-                },
-                {
-                    "op": "remove",
-                    "path": "/Entities/Entity_[1665450773900]/Components/EditorColliderComponent"
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[40062765283481]",
-                    "value": {
-                        "Id": "Entity_[40062765283481]",
-                        "Name": "Entity1",
-                        "Components": {
-                            "EditorDisabledCompositionComponent": {
-                                "$type": "EditorDisabledCompositionComponent",
-                                "Id": 11705003030062197612,
-                                "DisabledComponents": []
-                            },
-                            "EditorEntityIconComponent": {
-                                "$type": "EditorEntityIconComponent",
-                                "Id": 1917419226658766682,
-                                "EntityIconAssetId": {
-                                    "guid": "{00000000-0000-0000-0000-000000000000}",
-                                    "subId": 0
-                                }
-                            },
-                            "EditorEntitySortComponent": {
-                                "$type": "EditorEntitySortComponent",
-                                "Id": 1570990676993594353,
-                                "Child Entity Order": []
-                            },
-                            "EditorInspectorComponent": {
-                                "$type": "EditorInspectorComponent",
-                                "Id": 11028569577527665079,
-                                "ComponentOrderEntryArray": []
-                            },
-                            "EditorLockComponent": {
-                                "$type": "EditorLockComponent",
-                                "Id": 103174152903394062,
-                                "Locked": false
-                            },
-                            "EditorOnlyEntityComponent": {
-                                "$type": "EditorOnlyEntityComponent",
-                                "Id": 159132569792419383,
-                                "IsEditorOnly": false
-                            },
-                            "EditorPendingCompositionComponent": {
-                                "$type": "EditorPendingCompositionComponent",
-                                "Id": 17494764808716830528,
-                                "PendingComponents": []
-                            },
-                            "EditorVisibilityComponent": {
-                                "$type": "EditorVisibilityComponent",
-                                "Id": 5585418234768647073,
-                                "VisibilityFlag": true
-                            },
-                            "TransformComponent": {
-                                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                                "Id": 15083487272284217710,
-                                "Parent Entity": "Entity_[1682630643084]",
-                                "Transform Data": {
-                                    "Translate": [
-                                        -0.014999999664723873,
-                                        0.0,
-                                        -0.029999999329447746
-                                    ],
-                                    "Rotate": [
-                                        0.0,
-                                        0.0,
-                                        0.0
-                                    ],
-                                    "Scale": [
-                                        1.0,
-                                        1.0,
-                                        1.0
-                                    ],
-                                    "Locked": false,
-                                    "UniformScale": 1.0
-                                },
-                                "Parent Activation Transform Mode": 0,
-                                "IsStatic": false,
-                                "InterpolatePosition": 0,
-                                "InterpolateRotation": 0
-                            }
-                        },
-                        "IsRuntimeActive": true
-                    }
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 0.05000000074505806
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[1682630643084]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Mass",
-                    "value": 10.0
+                    "value": 100.0
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[1682630643084]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Centre of mass offset/0",
-                    "value": -0.014999999664723873
+                    "value": -0.017999999225139618
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[1682630643084]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Centre of mass offset/2",
-                    "value": -0.029999999329447746
+                    "value": 0.0
                 },
                 {
                     "op": "replace",
-                    "path": "/Entities/Entity_[1682630643084]/Components/EditorColliderComponent/Id",
-                    "value": 5158014069412323211
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1682630643084]/Components/EditorColliderComponent/ColliderConfiguration/Position/2",
-                    "value": 0.019999999552965164
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1682630643084]/Components/EditorColliderComponent/ShapeConfiguration/Box/Configuration/2",
-                    "value": 0.05999999865889549
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1682630643084]/Components/EditorEntitySortComponent/Child Entity Order/3",
+                    "path": "/Entities/Entity_[1682630643084]/Components/EditorEntitySortComponent/Child Entity Order/0",
                     "value": "Entity_[1665450773900]"
                 },
                 {
                     "op": "replace",
-                    "path": "/Entities/Entity_[1682630643084]/Components/EditorEntitySortComponent/Child Entity Order/4",
-                    "value": "Entity_[1635386002828]"
+                    "path": "/Entities/Entity_[1682630643084]/Components/EditorEntitySortComponent/Child Entity Order/1",
+                    "value": "Entity_[1674040708492]"
                 },
                 {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1682630643084]/Components/EditorEntitySortComponent/Child Entity Order/10",
-                    "value": "Entity_[40062765283481]"
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1682630643084]/Components/EditorEntitySortComponent/Child Entity Order/2",
+                    "value": "Entity_[1699810512268]"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[1682630643084]/Components/EditorEntitySortComponent/Child Entity Order/9"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[1682630643084]/Components/EditorEntitySortComponent/Child Entity Order/8"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[1682630643084]/Components/EditorEntitySortComponent/Child Entity Order/7"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[1682630643084]/Components/EditorEntitySortComponent/Child Entity Order/6"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[1682630643084]/Components/EditorEntitySortComponent/Child Entity Order/5"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[1682630643084]/Components/EditorEntitySortComponent/Child Entity Order/4"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[1682630643084]/Components/EditorEntitySortComponent/Child Entity Order/3"
                 },
                 {
                     "op": "replace",
@@ -809,7 +1258,7 @@
                                             "Entity_[1674040708492]",
                                             "Entity_[1699810512268]"
                                         ],
-                                        "WheelRadius": 0.03310000151395798,
+                                        "WheelRadius": 0.032999999821186066,
                                         "IsSteering": true,
                                         "IsDrive": true
                                     }
@@ -820,10 +1269,10 @@
                             "ManualControl": true,
                             "DriveModel": {
                                 "Limits": {
-                                    "LinearLimit": 0.10000000149011612,
-                                    "AngularLimit": 0.5,
+                                    "LinearLimit": 0.20000000298023224,
+                                    "AngularLimit": 10.0,
                                     "LinearAcceleration": 1.0,
-                                    "AngularAcceleration": 3.5
+                                    "AngularAcceleration": 3.0
                                 }
                             }
                         }
@@ -833,6 +1282,139 @@
                     "op": "replace",
                     "path": "/Entities/Entity_[1682630643084]/Components/TransformComponent/Parent Entity",
                     "value": "ContainerEntity"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[1682630643084]/Components/EditorColliderComponent"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1618206133644]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Mass",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1618206133644]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Angular damping",
+                    "value": 0.009999999776482582
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1618206133644]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Articulation Joint Type",
+                    "value": 1
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1618206133644]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Local Rotation/2",
+                    "value": 90.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1618206133644]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Friction",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1618206133644]/Components/EditorColliderComponent/ColliderConfiguration/Rotation/1",
+                    "value": 1.0536708394681682e-8
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1618206133644]/Components/EditorColliderComponent/ColliderConfiguration/Rotation/2",
+                    "value": 1.0536709282860102e-8
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1618206133644]/Components/EditorColliderComponent/ColliderConfiguration/MaterialSlots/Slots/0/MaterialAsset/assetId/guid",
+                    "value": "{6591FAEC-8F36-534D-9197-7F4DE940F58A}"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1618206133644]/Components/EditorColliderComponent/ColliderConfiguration/MaterialSlots/Slots/0/MaterialAsset/assetId/subId",
+                    "value": 1
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1618206133644]/Components/EditorColliderComponent/ColliderConfiguration/MaterialSlots/Slots/0/MaterialAsset/assetHint",
+                    "value": "materials/wheel_material.physicsmaterial"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1618206133644]/Components/EditorColliderComponent/ShapeConfiguration/Sphere/Radius",
+                    "value": 0.01549999974668026
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1618206133644]/Components/EditorColliderComponent/ShapeConfiguration/Cylinder/Configuration/CookedData",
+                    "value": "TlhTAUNWWE0OAAAAAAAAAElDRQFDTEhMCQAAACAAAAAwAAAAEgAAAGAAAABR68e7B9ejO02DYDxOxy28B9ejO0zHLTxOxy28C9eju0zHLTxQ68e7C9eju02DYDz4RAuwC9eju4zCdTx7MF2wB9ejO4zCdTxPg2C8B9ejO03rxzuNwnW8CNejO/dEi7CNwnW8Cteju3ww3bDLb2W8C9ejuxwlsDtJ68e7B9eju0+DYLxMxy28CNeju07HLbxMxy28CtejO07HLbxK68e7C9ejO0+DYLw33fkwC9ejO4zCdbx8aRExB9eju4zCdbxU68c7B9eju0yDYLwhJbA7C9ejO8tvZbxQxy08C9ejO0zHLbxQxy08B9eju0zHLbxN68c7C9eju0+DYDxOxy08Cteju07HLTxOxy08CNejO07HLTxM68c7B9ejO0+DYDzLb2W8CNejOyAlsLvLb2W8CtejuyElsLtNg2A8CtejO0/rxzuNwnU8CtejOwzXoy9Pg2A8C9ejO0jrx7tPg2A8B9eju0nrx7uNwnU8CNejuwnXo69Ng2A8CNeju07rxzsoigazAACAP3A0sjMK16O7AAAQDwUAEb8AAAAA7PlSPwqlcbwQAAQQxuZUvkxUJrLiZ3o/uGNwvBQABBG1CXu/NaNIsjSjSD4R/3C8GAAEG4n6VL8AAAAA5woOPxH/cLwcAAQcAwARvwAAAADt+VK/CqVxvCAABBW05lS+PlQmsuNner+3Y3C8JAAEBDqjSD40o8gxtQl7vxH/cLwoAAQE5woOPwAAAACI+lS/Ev9wvCwABAACABE/AAAAAO75Uj8LpXG8MAAECrTmVD4+VCYy5Gd6P7hjcLw0AAQOGbNWvwAAAAB8bQu/tmNwvDgABBqXtnu/18kRMvSbOr4KpXG8PAAEG/H5Uj8AAAAA//8QvwylcbxAAAQG42d6P0pUJjLD5lS+uWNwvEQABAniZ3o/0eZUstDmVD64Y3C8SAAEGO/5Uj8AkOKy//8QPwqlcbxMAAQLIZtisgAAgL8uQ4WzCdeju1AAEBoYBwYBAAUXFhobHBIRDg0MAAECAwADBAUGBwgJCQIBBgoLDA0KDQ4PEA8OERESExAUFRYXFBcFBBgMCxkYGQgHHRMSHB0cGx4fHhsaHxoWFR8VFAQDAgkIGQsKDxATHR4ADAADAAQAAQACAAoACQAQAA8ADgANAAgABwAGAAUACwEEAREBAgIRAgoDDAMRAwQEEQURBQsFBgYHBhEHEQcICA0IEQkRCRAJCgoRCxELDAwRDRENDg4PDhEPEQ8QEBEAAQIAAQQBBBEBAhECChEAAgoAAwQAAwwDDBEDBBEFBhEFCxEABQsABQYABgcGBxEHCBEABwgACA0IDREJChEJEBEACRAACQoACwwLDBEADxAADg8ADQ4NDhEODxEPEBEAAAAAjcJ1vAvXo7uMwnW8jcJ1PAvXozuMwnU8M/TmNoK77i+Th/MnglJqqpOH8yc2Sk8wZjTzp4JSaqpmNPOnjezuL0D1bLUZ71quTFEeNgAAgL8AAIC/CdejO4i2azyvLz07ry89Ow=="
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1665450773900]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Mass",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1665450773900]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Angular damping",
+                    "value": 0.009999999776482582
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1665450773900]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Centre of mass offset/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1665450773900]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Articulation Joint Type",
+                    "value": 1
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1665450773900]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Local Position/2",
+                    "value": -0.019999999552965164
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1665450773900]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Local Rotation/1",
+                    "value": -90.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1665450773900]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Display Joint Setup",
+                    "value": 2
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1665450773900]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Angular Limit Negative",
+                    "value": -180.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1665450773900]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Angular Limit Positive",
+                    "value": 180.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1665450773900]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Motor configuration/Damping",
+                    "value": 0.10000000149011612
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1665450773900]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Friction",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1665450773900]/Components/ROS2FrameEditorComponent/ROS2FrameConfiguration/Namespace Configuration/Namespace Strategy",
+                    "value": 1
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1665450773900]/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 0.004499997943639755
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[1665450773900]/Components/EditorColliderComponent"
                 }
             ]
         },

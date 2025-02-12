@@ -1859,7 +1859,8 @@
                         ],
                         "Is Limited": false,
                         "Motor configuration": {
-                            "UseMotor": true
+                            "UseMotor": true,
+                            "Stiffness": 0.0
                         }
                     }
                 },
@@ -1940,6 +1941,9 @@
                     "$type": "ROS2FrameEditorComponent",
                     "Id": 15140418672051539254,
                     "ROS2FrameConfiguration": {
+                        "Namespace Configuration": {
+                            "Namespace Strategy": 1
+                        },
                         "Frame Name": "left_wheel",
                         "Joint Name": "left_wheel_joint"
                     }
@@ -1954,6 +1958,14 @@
                             0.06750000268220901,
                             -0.017000000923871994
                         ]
+                    }
+                },
+                "WheelControllerComponent": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 14454534305494612919,
+                    "m_template": {
+                        "$type": "WheelControllerComponent",
+                        "SteeringEntity": ""
                     }
                 }
             }

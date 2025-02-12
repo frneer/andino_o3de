@@ -3,7 +3,7 @@
         "Gems": {
             "PhysX5": {
                 "PhysXSystemConfiguration": {
-                    "FixedTimeStep": 0.05000000074505806,
+                    "FixedTimeStep": 0.009999999776482582,
                     "CollisionConfig": {
                         "Layers": {
                             "LayerNames": [
